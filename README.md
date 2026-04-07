@@ -1,7 +1,6 @@
 # Serviced Offices in London – Next.js Listing Page
 
 A high‑performance, filterable office listing page built for a UK business replacing their legacy CMS.  
-**Live demo:** [Add your Vercel URL here after deployment]
 
 ---
 
@@ -15,10 +14,10 @@ Each listing card shows key decision‑making information, and three featured of
 
 ## Tech stack
 
-- **Next.js 15** (App Router) – server‑rendered React framework  
+- **Next.js 16.2.4 (App Router) – server‑rendered React framework  
 - **TypeScript** – type safety and better developer experience  
-- **Tailwind CSS** – utility‑first styling  
-- **shadcn/ui** – accessible, unstyled components (Select, Card, Button, Input, Slider)  
+- **Tailwind CSS v4 – utility‑first styling  
+- **shadcn/ui 4.1.2 – accessible, unstyled components (Select, Card, Button, Input, Slider)  
 - **pnpm** – fast, disk‑efficient package manager  
 
 ---
@@ -55,6 +54,7 @@ pnpm install
 
 # Run the development server
 pnpm dev
+```
 
 Open http://localhost:3000 to see the page.
 
@@ -96,10 +96,12 @@ Featured offices – highlighted with a gold border and badge to improve convers
 
 Accordion – uses shadcn’s Base UI implementation; the first FAQ item is open by default for discoverability.
 
-Browser support
+## Browser support
+
 Tested in the latest versions of Chrome, Firefox, Safari, and Edge. Fully responsive.
 
-Next steps (if this were a live project)
+## Next steps (if this were a live project)
+
 Add real office photography and optimise with next/image
 
 Implement the “Enquire” / “Call” buttons to connect to a CRM or booking system
